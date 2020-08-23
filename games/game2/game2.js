@@ -115,8 +115,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
       alert(`You Found ${cardArray[optionOneId].name}`)
-      cards[optionOneId].setAttribute('src', 'images/blank.jpeg')
-      cards[optionTwoId].setAttribute('src', 'images/blank.jpeg')
+      //cards[optionOneId].setAttribute('src', 'images/blank.jpeg')
+      //cards[optionTwoId].setAttribute('src', 'images/blank.jpeg')
       cards[optionOneId].removeEventListener('click', flipCard)
       cards[optionTwoId].removeEventListener('click', flipCard)
       cardsWon.push(cardsChosen)
