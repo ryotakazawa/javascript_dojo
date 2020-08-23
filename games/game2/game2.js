@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       alert('Dont click twice')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('Found a match!')
+      alert(`You Found ${cardArray[optionOneId].name}`)
       cards[optionOneId].setAttribute('src', 'images/blank.jpeg')
       cards[optionTwoId].setAttribute('src', 'images/blank.jpeg')
       cards[optionOneId].removeEventListener('click', flipCard)
